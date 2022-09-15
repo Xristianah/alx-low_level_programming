@@ -1,13 +1,18 @@
 #include "main.h"
+
 /**
- *  * add - adds two integers and returns the result
+ *  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  *   *
- *    * @x: number being added
- *     *
- *      * @y: number being added
- *       * Return: Always 0.
- */
-int add(int x, int y)
+*/
+void print_alphabet(void)
 {
-	return (x + y);
+	char ch;
+
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 }
