@@ -5,7 +5,7 @@
  *    *
  *     * Description: Checks for alphabetic character
  *      * Return: 1 if c is a letter, 0 otherwise.
- *      */
+ */
 int _isalpha(int c)
 {
 	if ((c < 'z' && 'a' < c) || (c < 'Z' && c > 'A'))
