@@ -1,19 +1,3 @@
-Mickabtech
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
-@Mickabtech
-Mickabtech 100-prime_factor.c
- 1 contributor
- Executable File  31 lines (29 sloc)  332 Bytes
 #include "stdio.h"
  /**
   *  * main - largest prime factor of 612852475143
