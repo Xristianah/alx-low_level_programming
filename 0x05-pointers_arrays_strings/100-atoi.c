@@ -13,6 +13,7 @@ int _atoi(char *s)
 	int sign = 1;
 	char now;
 
+
 	index = 0;
 	res = 0;
 	while (*(s + index) != '\0')
