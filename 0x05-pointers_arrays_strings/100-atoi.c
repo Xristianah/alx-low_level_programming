@@ -5,13 +5,12 @@
  *   * @s: pointer to string.
  *    *
  *     * Return: integer gotten.
-*/
+ *      */
 int _atoi(char *s)
 {
 	int index, ind2;
 	unsigned int res;
 	int sign = 1;
-
 	char now;
 
 	index = 0;
@@ -28,7 +27,7 @@ int _atoi(char *s)
 			ind2 = index;
 			while (*(s + ind2) > 47 && *(s + ind2) < 58)
 			{
-				res = (res * 10) + *(s + ind2)-  '0 ' ;
+				res = (res * 10) + *(s + ind2)-'0';
 				ind2++;
 			}
 			break;
